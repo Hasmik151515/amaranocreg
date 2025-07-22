@@ -13,8 +13,8 @@ const ParentDiv = () => (
   <div className="arajin">
     <RegionFilter regions={regions} />
     <PriceFilter />
-     <MaxPeople />
-   <Overnight />
+    <MaxPeople />
+    <Overnight />
     <RoomCount />
     <Bathrooms />
     <PoolOptions />
