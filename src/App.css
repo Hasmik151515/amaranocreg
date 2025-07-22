@@ -326,8 +326,9 @@ body {
   height: 45px;
   width: 75px;
   background-color: black;
-  position: relative;
-
+  position: absolute;
+  top: 600px;
+  left:40px;
   border-radius: 50px;
   color: white;
   display: flex;
@@ -451,9 +452,9 @@ body {
   height: 45px;
   width: 50px;
   border: 1px solid #E5E7EB;
-  position: absolute;
-  top: 720px;
-  left: 120px;
+  position: relative;
+
+  left: 200px;
   border-radius: 50px;
   color: #585e6d;
   display: flex;

@@ -15,7 +15,7 @@ const ParentDiv = () => (
     <PriceFilter />
      <MaxPeople />
    <Overnight />
-    {/* <RoomCount /> */}
+    <RoomCount />
     {/* <Bathrooms /> */}
     {/* <PoolOptions /> */}
     {/* <Advantages /> */}
