@@ -23,7 +23,7 @@ function App() {
       <CommonOffers />
       <Pagination pages={pages} />
       <Footer/>
-      {/* <LastPart/>  */}
+      <LastPart/> 
 
     </div>
   );
