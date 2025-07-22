@@ -21,8 +21,8 @@ function App() {
       <HouseTypes />
       <BestOffer />
       <CommonOffers />
-      {/* <Pagination pages={pages} /> */}
-      {/* <Footer/> */}
+      <Pagination pages={pages} />
+      <Footer/>
       {/* <LastPart/>  */}
 
     </div>
