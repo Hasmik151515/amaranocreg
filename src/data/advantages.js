@@ -1,0 +1,18 @@
+export const advantages = [
+  { name: "Sauna" },
+  { name: "Jacussi" },
+  { name: "Billiard" },
+  { name: "Ping-pong" },
+  { name: "Open pavilion" },
+  { name: "Indoor pavilion" },
+  { name: "Barbecue" },
+  { name: "Tandoor" },
+  { name: "Summer kitchen" },
+  { name: "Player" },
+  { name: "Swing" },
+  { name: "Cinema" },
+  { name: "Wifi" },
+  { name: "Smart TV" },
+  { name: "Trampoline" },
+  { name: "Bar" },
+];
