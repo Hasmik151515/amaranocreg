@@ -2,7 +2,11 @@
 module.exports = {
   content: [ "./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        impact: ['Impact', 'Haettenschweiler', "'Arial Narrow Bold'", 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

@@ -17,13 +17,13 @@ function App() {
     <div className="body">
       <Header />
       <ParentDiv />
-      {/* <MapCal />
+       <MapCal /> 
       <HouseTypes />
       <BestOffer />
-      <CommonOffers />
-      <Pagination pages={pages} />
-      <Footer/>
-      <LastPart/> */}
+      {/* <CommonOffers /> */}
+      {/* <Pagination pages={pages} /> */}
+      {/* <Footer/> */}
+      {/* <LastPart/>  */}
 
     </div>
   );

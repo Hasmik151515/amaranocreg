@@ -6,6 +6,8 @@ export const bestOffers = [
         people: 25,
         hasGazar: true,
         price: "90,000 Դ",
+        className: "absolute top-[330px] left-[5px]",
+        class: "absolute top-[335px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
     },
     {
         id: 2,
@@ -14,6 +16,9 @@ export const bestOffers = [
         people: 40,
         hasGazar: false,
         price: "80,000 Դ",
+        className: "relative top-[-20px] left-[5px]",
+        class: "relative top-[-45px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
+
     },
     {
         id: 3,
@@ -22,6 +27,9 @@ export const bestOffers = [
         people: 30,
         hasGazar: true,
         price: "100,000 Դ",
+        className: "relative top-[-80px] left-[5px]",
+        class: "relative top-[-105px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
+
     },
     {
         id: 4,
@@ -30,7 +38,9 @@ export const bestOffers = [
         people: 12,
         hasGazar: false,
         price: "140,000 Դ",
-        
+        className: "relative top-[-20px] left-[5px]",
+        class: "relative top-[-45px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
+
     },
     {
         id: 5,
@@ -39,6 +49,9 @@ export const bestOffers = [
         people: 20,
         hasGazar: false,
         price: "150,000 Դ",
+          className: "relative top-[-20px] left-[5px]",
+        class: "relative top-[-45px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
+
     },
     {
         id: 6,
@@ -47,6 +60,9 @@ export const bestOffers = [
         people: 15,
         hasGazar: false,
         price: "80,000 Դ",
+             className: "relative top-[-20px] left-[5px]",
+        class: "relative top-[-45px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
+
     },
     {
         id: 7,
@@ -55,6 +71,9 @@ export const bestOffers = [
         people: 24,
         hasGazar: false,
         price: "150,000 Դ",
+               className: "relative top-[-20px] left-[5px]",
+        class: "relative top-[-45px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
+
     },
     {
         id: 8,
@@ -63,6 +82,9 @@ export const bestOffers = [
         people: 20,
         hasGazar: true,
         price: "90,000 Դ",
+           className: "relative top-[-80px] left-[5px]",
+        class: "relative top-[-105px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
+
     },
     {
         id: 9,
@@ -71,6 +93,9 @@ export const bestOffers = [
         people: 25,
         hasGazar: true,
         price: "160,000 Դ",
+           className: "relative top-[-80px] left-[5px]",
+        class: "relative top-[-105px] left-[40px] text-[20px] leading-[28px] font-normal tracking-normal text-[#585e6d] font-impact ",
+
     }
 ];
 

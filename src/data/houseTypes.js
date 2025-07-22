@@ -15,7 +15,7 @@ import apartments from "../assets/apartments.png";
 
 export const houseTypes = [
   { image: tun2, label: "Houses", className: "nk" },
-  { image: frame, label: "Frame houses", className: "nk2" },
+  { image: frame, label: "Frame houses", className: "h-[42px] w-[60px]" },
   { image: tiny, label: "Tiny homes", className: "nk2" },
   { image: pool, label: "Closed pool", className: "nk3" },
   { image: seclution, label: "Seclusion", className: "nk4" },
