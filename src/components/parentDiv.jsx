@@ -14,7 +14,7 @@ const ParentDiv = () => (
     <RegionFilter regions={regions} />
     <PriceFilter />
      <MaxPeople />
-   {/* <Overnight /> */}
+   <Overnight />
     {/* <RoomCount /> */}
     {/* <Bathrooms /> */}
     {/* <PoolOptions /> */}
