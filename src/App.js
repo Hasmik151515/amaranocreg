@@ -20,7 +20,7 @@ function App() {
        <MapCal /> 
       <HouseTypes />
       <BestOffer />
-      {/* <CommonOffers /> */}
+      <CommonOffers />
       {/* <Pagination pages={pages} /> */}
       {/* <Footer/> */}
       {/* <LastPart/>  */}

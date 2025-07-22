@@ -10,8 +10,8 @@ const CommonOffersItem = ({ offer, icons }) => (
     {offer.hasGazar && (
       <img src={icons.gazaraguyn} className="gazar" alt="gazaraguyn" />
     )}
-    <img src={icons.pitak} className="pitak" alt="pitak" />
-    <span className="gin">{offer.price}</span>
+    <img src={icons.pitak} className="offer.className" alt="pitak" />
+    <span className="offer.class">{offer.price}</span>
   </div>
 );
 

@@ -5,8 +5,8 @@ import BestOfferItem from "./BestOfferItem";
 
 const CommonOffers = () => (
   <>
-    <p className="comm">Common offers</p>
-    <div className="nk2div">
+    <p className="absolute top-[1550px] left-[470px] font-semibold text-[17px]">Common offers</p>
+    <div className="absolute top-[1610px] left-[470px] w-[1020px] grid gap-[15px] grid-cols-[330px_330px_330px] grid-rows-[370px_370px_370px]">
       {commonOffers.map((offer) => (
         <BestOfferItem key={offer.id} offer={offer} icons={icons} />
       ))}
