@@ -1266,26 +1266,3 @@ overflow-x:auto ;
   display: grid;
 }  */
 
-.tner::-webkit-scrollbar {
-  height: 0px;   
-}
-.region::-webkit-scrollbar {
-  height:0px;   
-  width: 0px;
-}
-.region::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
- .region::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-} */
-.adv2::-webkit-scrollbar {
-  height:0px;   
-  width: 0px;
-}
-.adv2::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-.adv2::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
