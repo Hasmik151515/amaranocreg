@@ -566,9 +566,8 @@ body {
   height: 45px;
   width: 65px;
   background-color: black;
-  position: absolute;
-  top: 950px;
-  left:40px;
+  position: relative;
+
   border-radius: 50px;
   color: white;
   display: flex;
@@ -584,8 +583,7 @@ body {
   width: 50px;
   border: 1px solid #E5E7EB;
   position: absolute;
-  top: 950px;
-  left: 120px;
+
   border-radius: 50px;
   color: #585e6d;
   display: flex;
@@ -646,9 +644,8 @@ body {
   height: 45px;
   width: 65px;
   background-color: black;
-  position: absolute;
-  top: 1120px;
-  left:40px;
+  position: relative;
+
   border-radius: 50px;
   color: white;
   display: flex;
@@ -664,9 +661,8 @@ body {
   height: 45px;
   width: 85px;
   border: 1px solid #E5E7EB;
-  position: absolute;
-  top: 1180px;
-  left: 40px;
+  position:relative;
+
   border-radius: 50px;
   color: #585e6d;
   display: flex;
@@ -681,9 +677,8 @@ body {
   height: 45px;
   width: 70px;
   border: 1px solid #E5E7EB;
-  position: absolute;
-  top: 1120px;
-  left: 110px;
+  position: relative;
+
   border-radius: 50px;
   color: #585e6d;
   display: flex;
@@ -698,9 +693,8 @@ body {
   height: 45px;
   width: 85px;
   border: 1px solid #E5E7EB;
-  position: absolute;
-  top: 1180px;
-  left: 130px;
+  position: relative;
+
   border-radius: 50px;
   color: #585e6d;
   display: flex;
@@ -732,7 +726,7 @@ body {
   position: absolute;
   top: 1330px;
   font-size: 16px;
-  left:40px;
+
   font-weight: 500;
 }
 
@@ -740,9 +734,8 @@ body {
   height: 250px;
   width: 200px;
   overflow-y: scroll;
-  position: absolute;
-  top: 1400px;
-  left:40px;
+  position: relative;
+
   color: #585e6d;
   font-weight: 400;
   display: grid;

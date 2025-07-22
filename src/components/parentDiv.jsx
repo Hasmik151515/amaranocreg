@@ -16,9 +16,9 @@ const ParentDiv = () => (
      <MaxPeople />
    <Overnight />
     <RoomCount />
-    {/* <Bathrooms /> */}
-    {/* <PoolOptions /> */}
-    {/* <Advantages /> */}
+    <Bathrooms />
+    <PoolOptions />
+    <Advantages />
   </div>
 );
 
