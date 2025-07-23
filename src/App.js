@@ -1,31 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/header";
-import './App.css';
-import ParentDiv from "./components/parentDiv";
-import MapCal from "./components/mapCal"
-import HouseTypes from "./components/HouseTypes"
-import BestOffer from "./components/BestOffer"
-import CommonOffers from "./components/CommonOffers"
-import Pagination from "./components/Pagination";
-import Footer from "./components/footer"
-import LastPart from "./components/lastPart"
-
-import { pages } from "./data/pages";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
+import "./index.css";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="body">
-      <Header />
-      <ParentDiv />
-       <MapCal /> 
-      <HouseTypes />
-      <BestOffer />
-      <CommonOffers />
-      <Pagination pages={pages} />
-      <Footer/>
-      <LastPart/> 
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-    </div>
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route
+          path="/login"
+          element={
+            isLoggedIn ? <Navigate to="/" replace /> : <Login onLogin={() => setIsLoggedIn(true)} />
+          }
+        />
+        <Route
+          path="/"
+          element={
+            isLoggedIn ? <Home onLogout={() => setIsLoggedIn(false)} /> : <Navigate to="/login" replace />
+          }
+        />
+      </Routes>
+    </>
   );
 }
 
