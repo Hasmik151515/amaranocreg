@@ -1,9 +1,9 @@
-// import React from "react";
+import React from "react";
 
-// const RoomItem = ({ option }) => (
-//   <div className={option.className}>
-//     {option.label}
-//   </div>
-// );
+const RoomItem = ({ option }) => (
+  <div className={option.className}>
+    {option.label}
+  </div>
+);
 
-// export default RoomItem;
+export default RoomItem;
