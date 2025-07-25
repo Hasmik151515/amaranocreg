@@ -1,7 +1,7 @@
 import React from "react";
 import ParentDiv from "../components/parentDiv";
 import MapCal from "../components/mapCal";
-// import HouseTypes from "../components/HouseTypes";
+import HouseTypes from "../components/HouseTypes";
 // import BestOffer from "../components/BestOffer"; 
 // import CommonOffers from "../components/CommonOffers";
 // import Pagination from "../components/Pagination";
@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <ParentDiv />
       <MapCal />
-      {/* <HouseTypes /> */}
+      <HouseTypes />
       {/* <BestOffer /> */}
       {/* <CommonOffers /> */}
       {/* <Pagination pages={pages} /> */}
