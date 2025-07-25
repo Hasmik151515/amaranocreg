@@ -1,37 +1,36 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/header";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+// import Home from "./pages/Home";
+// import Login from "./pages/Login";
+// import Register from "./pages/Register";
 import "./index.css";
 import "./App.css";
 
 export default function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+//   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  useEffect(() => {
-    // Ստուգում ենք localStorage-ում կա email թե չէ
-    const userEmail = localStorage.getItem("userEmail");
-    if (userEmail) {
-      setIsLoggedIn(true);
-    }
-  }, []);
+//   useEffect(() => {
+//     const userEmail = localStorage.getItem("userEmail");
+//     if (userEmail) {
+//       setIsLoggedIn(true);
+//     }
+//   }, []);
 
-  const handleLogin = (email) => {
-    localStorage.setItem("userEmail", email);
-    setIsLoggedIn(true);
-  };
+//   const handleLogin = (email) => {
+//     localStorage.setItem("userEmail", email);
+//     setIsLoggedIn(true);
+//   };
 
-  const handleLogout = () => {
-    localStorage.removeItem("userEmail");
-    setIsLoggedIn(false);
-  };
+//   const handleLogout = () => {
+//     localStorage.removeItem("userEmail");
+//     setIsLoggedIn(false);
+//   };
 
   return (
     <>
       <Header />
-      <Routes>
+       {/* <Routes>
         <Route
           path="/"
           element={
@@ -62,7 +61,7 @@ export default function App() {
             )
           }
         />
-      </Routes>
-    </>
+      </Routes> */}
+</> 
   );
 }
