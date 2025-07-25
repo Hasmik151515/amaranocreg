@@ -4,7 +4,7 @@ import MapCal from "../components/mapCal";
 import HouseTypes from "../components/HouseTypes";
 import BestOffer from "../components/BestOffer"; 
 import CommonOffers from "../components/CommonOffers";
-// import Pagination from "../components/Pagination";
+import Pagination from "../components/Pagination";
 // import Footer from "../components/footer";
 // import LastPart from "../components/lastPart";
 // import { pages } from "../data/pages";
@@ -17,7 +17,7 @@ export default function Home() {
       <HouseTypes />
       <BestOffer /> 
       <CommonOffers />
-      {/* <Pagination pages={pages} /> */}
+      <Pagination />
       {/* <Footer /> */}
       {/* <LastPart /> */}
     </>

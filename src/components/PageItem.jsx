@@ -1,7 +1,7 @@
-// import React from "react";
+import React from "react";
 
-// const PageItem = ({ label, className }) => {
-//   return <div className={className}>{label}</div>;
-// };
+const PageItem = ({ label, className }) => {
+  return <div className={className}>{label}</div>;
+};
 
-// export default PageItem;
+export default PageItem;
