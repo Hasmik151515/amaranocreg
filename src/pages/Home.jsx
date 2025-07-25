@@ -1,6 +1,6 @@
 import React from "react";
 import ParentDiv from "../components/parentDiv";
-// import MapCal from "../components/mapCal";
+import MapCal from "../components/mapCal";
 // import HouseTypes from "../components/HouseTypes";
 // import BestOffer from "../components/BestOffer"; 
 // import CommonOffers from "../components/CommonOffers";
@@ -13,13 +13,13 @@ export default function Home() {
   return (
     <>
       <ParentDiv />
-      {/* <MapCal />
-      <HouseTypes />
-      <BestOffer />
-      <CommonOffers />
-      <Pagination pages={pages} />
-      <Footer />
-      <LastPart /> */}
+      <MapCal />
+      {/* <HouseTypes /> */}
+      {/* <BestOffer /> */}
+      {/* <CommonOffers /> */}
+      {/* <Pagination pages={pages} /> */}
+      {/* <Footer /> */}
+      {/* <LastPart /> */}
     </>
   );
 }
