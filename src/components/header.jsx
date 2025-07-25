@@ -13,7 +13,6 @@ function Header() {
       .catch(err => console.error("Fetch headerMenu error:", err));
   }, []);
 
-  // Օրինակ՝ կոնկրետ Login-ի կոճակի հենարարկում
   const handleLoginClick = () => {
     navigate('/login');
   };

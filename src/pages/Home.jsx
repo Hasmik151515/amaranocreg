@@ -5,8 +5,8 @@ import HouseTypes from "../components/HouseTypes";
 import BestOffer from "../components/BestOffer"; 
 import CommonOffers from "../components/CommonOffers";
 import Pagination from "../components/Pagination";
-// import Footer from "../components/footer";
-// import LastPart from "../components/lastPart";
+import Footer from "../components/footer";
+import LastPart from "../components/lastPart";
 // import { pages } from "../data/pages";
 
 export default function Home() {
@@ -18,8 +18,8 @@ export default function Home() {
       <BestOffer /> 
       <CommonOffers />
       <Pagination />
-      {/* <Footer /> */}
-      {/* <LastPart /> */}
+      <Footer />
+      <LastPart />
     </>
   );
 }
