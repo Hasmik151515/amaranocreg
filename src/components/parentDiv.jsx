@@ -6,7 +6,7 @@ import Overnight from "./Overnight";
 import RoomCount from "./RoomCount";
 import Bathrooms from "./Bathrooms";
 import PoolOptions from "./PoolOptions";
-// import Advantages from "./Advantages";
+import Advantages from "./Advantages";
 // import { regions } from "../data/regions";
 
 const ParentDiv = () => (
@@ -18,7 +18,7 @@ const ParentDiv = () => (
     <RoomCount />
     <Bathrooms />/
     <PoolOptions />
-    {/* <Advantages /> */}
+    <Advantages />
   </div>
 );
 
