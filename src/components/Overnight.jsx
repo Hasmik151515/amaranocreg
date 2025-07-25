@@ -28,7 +28,7 @@ const Overnight = () => {
   if (error) return <p>Error loading overnight options: {error}</p>;
 
   return (
-    <div className="absolute top-[650px] left-[140px]">
+    <div className="absolute top-[650px] left-[120px]">
       <p className="text-base font-medium">Overnight availability</p>
       {overnightOptions.map((option, index) => (
         <div key={index} className={option.className}>
