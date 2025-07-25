@@ -1,8 +1,8 @@
 import React from "react";
-// import ParentDiv from "../components/parentDiv";
+import ParentDiv from "../components/parentDiv";
 // import MapCal from "../components/mapCal";
 // import HouseTypes from "../components/HouseTypes";
-// import BestOffer from "../components/BestOffer";
+// import BestOffer from "../components/BestOffer"; 
 // import CommonOffers from "../components/CommonOffers";
 // import Pagination from "../components/Pagination";
 // import Footer from "../components/footer";
@@ -12,7 +12,7 @@ import React from "react";
 export default function Home() {
   return (
     <>
-      {/* <ParentDiv /> */}
+      <ParentDiv />
       {/* <MapCal />
       <HouseTypes />
       <BestOffer />

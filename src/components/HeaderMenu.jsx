@@ -1,25 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function HeaderMenu() {
-  const [headerMenu, setHeaderMenu] = useState([]);
+function HeaderMenu({ menuItems }) {
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    fetch('https://amaranoc4-default-rtdb.firebaseio.com/headerMenu.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setHeaderMenu(data);  // data արդեն զանգված է
-      })
-      .catch((error) => {
-        console.error('Error fetching headerMenu:', error);
-      });
-  }, []);
+  const handleMenuClick = (label) => {
+    // Օրինակ, ուղի պատրաստել ըստ լեյբլի, օրինակ՝ Home -> /home
+    const path = '/' + label.toLowerCase().replace(/\s+/g, '-');
+    navigate(path);
+  };
 
   return (
     <>
-      {headerMenu.map((item, index) => (
+      {menuItems.map((item, index) => (
         <div
           key={index}
-          className={`grid justify-center items-center ${item.className}`}
+          className={`grid justify-center items-center cursor-pointer ${item.className}`}
+          onClick={() => handleMenuClick(item.label)}
         >
           {item.label}
         </div>

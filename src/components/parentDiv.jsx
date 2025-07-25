@@ -1,6 +1,6 @@
 import React from "react";
 import RegionFilter from "./RegionFilter";
-// import PriceFilter from "./PriceFilter";
+import PriceFilter from "./PriceFilter";
 // import MaxPeople from "./MaxPeople";
 // import Overnight from "./Overnight";
 // import RoomCount from "./RoomCount";
@@ -11,14 +11,14 @@ import RegionFilter from "./RegionFilter";
 
 const ParentDiv = () => (
   <div className="arajin">
-    <RegionFilter regions={regions} />
-    {/* <PriceFilter />
-    <MaxPeople />
-    <Overnight />
-    <RoomCount />
-    <Bathrooms />
-    <PoolOptions />
-    <Advantages /> */}
+    <RegionFilter/>
+    <PriceFilter />
+    {/* <MaxPeople /> */}
+    {/* <Overnight /> */}
+    {/* <RoomCount /> */}
+    {/* <Bathrooms />/ */}
+    {/* <PoolOptions /> */}
+    {/* <Advantages /> */}
   </div>
 );
 
